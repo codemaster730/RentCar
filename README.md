@@ -6,7 +6,7 @@
 
 <br>
 
-<h2 align="left">Demo : https://montasim.github.io/RentCar/</h2>
+<h2 align="left">Demo : https://CodeChef7.github.io/RentCar/</h2>
 
 <h2 align="left">Website Stats</h2>
 <br>
