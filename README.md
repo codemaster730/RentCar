@@ -15,7 +15,7 @@
 
 <h4 align="left">Home</h4>
 <p align="center">
-  <img alt="home" src = "https://github.com/CodeChef7/RentCar/blob/master/extra/rent.png">
+  <img alt="home" src = "https://github.com/CodeChef7/RentCar/blob/main/extra/rent.png">
 
 <br>
 <br>
