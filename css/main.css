@@ -1,0 +1,211 @@
+/* start home */
+.features {
+  width: 100%;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto; /* horizontally center the element within its container */
+  color: #444;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: Roboto, 'Open Sans', Arial, sans-serif;
+  padding: 30px 0 50px 0; /* top, right, bottom, left */
+}
+
+/* start home image */
+.home-image {
+  text-align: center;
+  padding-right: 45px;
+  padding-left: 42px;
+  color: white;
+}
+/* end home image */
+
+
+/* Columns */
+.four.features-column {
+  width: 23%;
+  margin: 0 1%;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+/* Text */
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+/* end home */
+
+/* start header */
+.header {
+  overflow: hidden; /* The overflow is clipped, and the rest of the content will be invisible */
+  background-color: #FFFFFF;
+  padding: 25px 15px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  margin-left: 16px;
+  text-decoration: none; /* remove underline */
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold; /* Defines thick characters */
+  color: dodgerblue;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link */
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness */
+@media screen and (max-width: 500px) {  /* Activate for the <body> element when the browser window is 500px wide or less: */
+  .header a {
+    float: none;
+    display: block; /* Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width */
+    text-align: left;
+  }
+.header-right {
+  float: none;
+}
+}
+/* end header */
+
+
+/* start cars */
+* { /* select all elememts */
+  box-sizing: border-box;
+}
+
+.cars-column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  padding-right: 48px;
+  padding-left: 44px;
+}
+
+/* Clearfix (clear floats) */
+.cars-row::after { /* Inserts something after the content of each selected elements. */
+  content: " ";  /* Insert content that looks like blank space */
+  clear: both;
+  display: table; /* Let the element behave like a <table> element */
+}
+/* end cars */
+
+
+/* start top banner */
+.banner-subheading{
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+#bannerimage {
+  padding-top: 20px;
+  text-align: center;
+  width: 100%;
+  height: 305px;
+}
+
+/* end top banner */
+
+
+/* start form */
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  height: 100%;
+}
+body{
+  font-family: 'Segoe UI', sans-serif;; /* two font family for two paragraph */
+  font-size: 1rem;  /* relative size */
+  line-height: 1.6;
+  height: 100%;
+}
+.form {
+  width: 100%;
+  height: 100%;
+  display: flex;  /* flexibility of form */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: center;
+  justify-content: center;  /* Align the flex items at the center of the container */
+  align-items: center;  /* Center the alignments for all the items of the flexible <div> element */
+  background: #FFFFFF;
+}
+.form-login{
+  width: 350px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  padding: 2rem;  /* relative size */
+  background: #FFFFFF;
+}
+.form-input{
+  background: #fafafa;
+  border: 1px solid #eeeeee;
+  padding: 12px;
+  width: 100%;
+}
+.form-group{
+  margin-bottom: 1rem;
+}
+.form-button{
+  background: dodgerblue;
+  border: 1px solid #ddd;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 100%;
+  text-transform: uppercase;
+}
+.form-button:hover{
+  background: #dodgerblue;
+}
+.form-header{
+  text-align: center;
+  margin-bottom : 2rem;
+}
+.form-footer{
+  text-align: center;
+}
+/* end form */
+
+/* start footer */
+.footer {
+  border: 10px;
+  height: 50px;
+  width: 300px;
+  position: center;
+  margin: 0 auto; /* horizontally center the element within its container */
+  margin-top: 20px;
+}
+/* end footer */
